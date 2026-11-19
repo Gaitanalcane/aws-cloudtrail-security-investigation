@@ -1,0 +1,27 @@
+﻿
+{
+    "Events": [
+        {
+            "EventName": "ConsoleLogin",
+            "Username": "developer-test",
+            "EventId": "TEST-001",
+            "CloudTrailEvent": "{\"responseElements\":{\"ConsoleLogin\":\"Failure\"}}"
+        },
+        {
+            "EventName": "CreateAccessKey",
+            "Username": "developer-test",
+            "EventId": "TEST-002"
+        },
+        {
+            "EventName": "StopLogging",
+            "Username": "unknown-user",
+            "EventId": "TEST-003"
+        },
+        {
+            "EventName": "ListUsers",
+            "Username": "test-user",
+            "EventId": "TEST-004"
+        }
+    ]
+}
+

@@ -1,0 +1,12 @@
+﻿# Real CloudTrail exports
+reports/events.json
+reports/management-events.json
+reports/investigation-report.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Credentials and secrets
+.env
+.aws/

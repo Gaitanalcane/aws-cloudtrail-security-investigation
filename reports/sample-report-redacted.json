@@ -1,0 +1,66 @@
+{
+    "generated_at_utc": "2026-11-19T05:09:24.303139+00:00",
+    "total_events": 4,
+    "total_findings": 3,
+    "identity_summary": {
+        "Unknown": 4
+    },
+    "service_summary": {
+        "Unknown": 4
+    },
+    "top_5_events": [
+        {
+            "event": "ConsoleLogin",
+            "count": 1
+        },
+        {
+            "event": "CreateAccessKey",
+            "count": 1
+        },
+        {
+            "event": "StopLogging",
+            "count": 1
+        },
+        {
+            "event": "ListUsers",
+            "count": 1
+        }
+    ],
+    "severity_summary": {
+        "HIGH": 2,
+        "CRITICAL": 1
+    },
+    "findings": [
+        {
+            "severity": "HIGH",
+            "event": "ConsoleLogin",
+            "username": "developer-test",
+            "event_id": "TEST-001",
+            "identity_type": "Unknown",
+            "invoked_by": null,
+            "source_ip": "Unknown",
+            "reason": "Failed console login"
+        },
+        {
+            "severity": "HIGH",
+            "event": "CreateAccessKey",
+            "username": "developer-test",
+            "event_id": "TEST-002",
+            "identity_type": "Unknown",
+            "invoked_by": null,
+            "source_ip": "Unknown",
+            "reason": "Sensitive AWS activity"
+        },
+        {
+            "severity": "CRITICAL",
+            "event": "StopLogging",
+            "username": "unknown-user",
+            "event_id": "TEST-003",
+            "identity_type": "Unknown",
+            "invoked_by": null,
+            "source_ip": "Unknown",
+            "reason": "Sensitive AWS activity"
+        }
+    ],
+    "conclusion": "Security findings detected. Review required."
+}
